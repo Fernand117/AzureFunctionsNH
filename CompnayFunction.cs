@@ -36,4 +36,12 @@ namespace Company.Function
 
         public DateTime LastUpdated { get; set; }
     }
+
+    public class DataIoTDevice
+    {
+        public int Id { get; set; }
+        public string name { get; set; }
+        public float Temperature { get; set; }
+        public float Variable { get; set; }
+    }
 }
